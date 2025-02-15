@@ -1,0 +1,11 @@
+local rSto = game:GetService("ReplicatedStorage")
+local strF = rSto:FindFirstChild("strengthFrame")
+local durF = rSto:FindFirstChild("durabilityFrame")
+
+if strF then
+    strF.Visible = false
+end
+
+if durF then
+    durF.Visible = false
+end
